@@ -21,6 +21,7 @@ Contains the following applications, written in Kotlin
 4) Run timer program, `java -jar timer.jar`
 
 Sample output on non-native JDK:
+```shell
 ......
   13.953s
   12.758s
@@ -29,8 +30,10 @@ Sample output on non-native JDK:
   8.619s
   8.448s
 Average Runtime: 10.8s
+```
 
 Sample output on native arm64 JDK:
+```shell
 ......
   2.614s
   2.567s
@@ -39,3 +42,4 @@ Sample output on native arm64 JDK:
   2.59s
   2.577s
 Average Runtime: 2.59s
+```
